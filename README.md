@@ -14,6 +14,9 @@ Paths is the repository are named so that a particular code block from
 the text is easy to find. For example, code block 15.3 from Chapter 15
 is available at `/chapter-15/15.3.py`
 
+You can also find the original code (which would run under version 1.x
+of the networkx library) at `/chapter-15/15.3.original.py`
+
 ## Textbook
 The textbook for which this repository was created is
 
