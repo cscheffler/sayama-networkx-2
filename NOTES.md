@@ -35,3 +35,25 @@ node to all destination nodes that are neighbors. Use
     g.edges['source', 'target']
 
 to access the properties of a particular edge.
+
+
+## Degree of a node
+
+The degree of node `i` in graph `g` is now found using
+
+    g.degree[i]
+
+rather than `g.degree(i)`.
+
+
+## Selecting a random node
+
+This is now more complicated since the `nodes` property is now a view.
+
+To select a random node from the graph:
+
+    random.choice(list(g.nodes))
+
+To select a random neighbor for node `i`:
+
+    random.choice(list(g.neighbors(i)))
